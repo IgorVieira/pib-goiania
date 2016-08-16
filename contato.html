@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script src="https://use.fontawesome.com/6955255fc8.js"></script>
+
+    <title>PIB Goiânia</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/pib.png" class="logo-image">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+
+                    <li>
+                        <a href="historia.html">História</a>
+                    </li>
+                    <li class="active">
+                        <a href="Jesus.html">Jesus Cristo</a>
+                    </li>
+                    <li>
+                        <a href="lideranca.html">Liderança</a>
+                    </li>
+                    <li>
+                        <a href="mensagens.html">Mensagens</a>
+                    </li>
+
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Primeira Igreja Batista
+                    <small>em Goiânia</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <form action="">
+                <div class="form-group">
+                   <label for="">Nome:</label>
+                  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                </div>
+                <br>
+
+                <div class="form-group">
+                  <label for="">Email:</label>
+                  <input type="text" class="form-control" placeholder="email@example.com" aria-describedby="basic-addon2">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Mensagem:</label>
+
+                   <textarea class="form-control" rows="7"  id="textArea"></textarea>
+
+
+                </div>
+                <br>
+                <input type="submit" class="btn btn-info" value="Enviar">
+             </form>
+            </div>
+
+            <div class="col-md-4 ">
+
+                    <style>
+                 #map {
+                        width: 100%;
+                        height: 300px;
+                     }
+                    </style>
+
+                    <div id="map"></div>
+                    <script>
+                      function initMap() {
+                        var mapDiv = document.getElementById('map');
+                        var map = new google.maps.Map(mapDiv, {
+                            center: {lat: -16.678417, lng: -49.260012},
+                            zoom: 17
+                        });
+
+                        var marker = new google.maps.Marker({
+                            position: {lat: -16.678417, lng: -49.260012},
+                            map: map,
+                            title: 'Primeira Igreja Batista em Goiânia'
+                          });
+                      }
+
+                    </script>
+                    <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzLxgGC-DkIYP7sYumxOt870-BE7tzXRw&callback=initMap">
+                    </script>
+                  </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <div class="row">
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="portfolio-item img-responsive " src="images/juventude.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="portfolio-item img-responsive " src="images/dynamis.jpg" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="portfolio-item img-responsive " src="images/video.png" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="portfolio-item img-responsive " src="images/pray.jpg" alt="">
+                </a>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+            <div class="row">
+                <a href="" class="topo"><i class="fa fa-arrow-up fa-2x"></i></a>
+    			<footer class="site-footer">
+
+    			  <div class="wrapper">
+
+    			    <h2 class="footer-heading">Primeira Igreja Batista em Goiânia</h2>
+
+    			    <div class="footer-col-wrapper">
+    			      <div class="footer-col footer-col-1">
+    			        <ul class="contact-list">
+    			          <li>Telefone:</li>
+    			          <li><a href="tel:+62932231716">(62) 3223-1716</a></li>
+    			        </ul>
+    			      </div>
+
+    			      <div class="footer-col footer-col-2">
+    			        <ul class="social-media-list">
+
+
+
+
+
+    			          <li>
+    			           <a href="https://www.facebook.com/Primeira-Igreja-Batista-em-Goiania_-Oficial-118054734997157/?ref=ts&fref=ts"> <i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</a>
+    			          </li>
+
+
+
+    			          <li>
+    			           <a href="https://twitter.com/<pibgoinia></pibgoinia>"><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</a>
+    			          </li>
+
+                          <li>
+                          <a href="https://www.flickr.com/photos/pibgoiania/"><i class="fa fa-flickr" aria-hidden="true"></i> Flickr</a>
+                        </li>
+    			        </ul>
+    			      </div>
+
+
+    			    </div>
+
+    			  </div>
+
+			    </footer>
+            </div>
+        <!---->
+        <div class="company">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; <a href="https://www.99bemore.com.br/" target="_blank">99beMore</a> 2016</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/up_button.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
